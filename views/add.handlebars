@@ -21,10 +21,11 @@
 
 <body>
 	<div class="container">
-		<h1>My HCI Friends</h1>
+		<h1>Your friend has been added!</h1>
+		<h2><a href="/">Back to home</a></h2>
 		{{#each friends}}
-			<div class="friend">
-				<img class="img-responsive img-rounded" src="{{imageURL}}"></img>
+			<div>
+				<img class="img-responsive img-rounded" style="width: 300px;" src="{{imageURL}}"></img>
 				<h3><a class="name" href="#">{{name}}</a></h3>
 				<p>{{description}}</p>
 			</div>
